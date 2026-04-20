@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Teen Patti Guide: Rules, Hand Rankings &amp; How to Play</title>
+  <meta name="description" content="A beginner-friendly Teen Patti guide covering rules, hand rankings, gameplay steps, strategy tips, and FAQ." />
+  <meta name="keywords" content="Teen Patti guide, Teen Patti rules, Teen Patti hand rankings, how to play Teen Patti, Indian poker" />
+  <style>
+    :root {
+      --bg: #0f0607;
+      --bg2: #241012;
+      --card: rgba(255,255,255,0.08);
+      --border: rgba(255,255,255,0.12);
+      --gold: #f4c95d;
+      --text: #f8f1e5;
+      --muted: #d5c5af;
+      --accent: #8d1f22;
+      --green: #135b48;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top, rgba(244,201,93,0.10), transparent 24%),
+        linear-gradient(180deg, #2a0d0f 0%, #13090a 48%, #0b0505 100%);
+      line-height: 1.75;
+    }
+    a { color: #ffe08b; }
+    .container {
+      width: min(920px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      backdrop-filter: blur(12px);
+      background: rgba(10,5,5,0.72);
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+    .topbar .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 0;
+      gap: 16px;
+    }
+    .brand {
+      font-weight: 800;
+      letter-spacing: 0.3px;
+    }
+    .nav a {
+      text-decoration: none;
+      margin-left: 16px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .hero {
+      padding: 42px 0 24px;
+    }
+    .hero-card {
+      background: linear-gradient(180deg, rgba(255,255,255,0.07), rgba(255,255,255,0.03));
+      border: 1px solid var(--border);
+      border-radius: 28px;
+      padding: 28px;
+      box-shadow: 0 24px 60px rgba(0,0,0,0.28);
+    }
+    .eyebrow {
+      display: inline-block;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(244,201,93,0.12);
+      border: 1px solid rgba(244,201,93,0.18);
+      color: var(--gold);
+      font-size: 13px;
+      font-weight: 700;
+      margin-bottom: 14px;
+    }
+    .hero h1 {
+      margin: 0 0 12px;
+      font-size: clamp(34px, 5vw, 56px);
+      line-height: 1.05;
+      letter-spacing: -1.2px;
+    }
+    .hero p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 17px;
+    }
+    .content {
+      padding: 18px 0 56px;
+    }
+    .article {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid var(--border);
+      border-radius: 28px;
+      padding: 34px;
+      box-shadow: 0 24px 60px rgba(0,0,0,0.25);
+    }
+    h1, h2, h3 {
+      line-height: 1.2;
+    }
+    .article h1 {
+      font-size: clamp(30px, 4vw, 46px);
+      margin-top: 0;
+      margin-bottom: 18px;
+    }
+    .article h2 {
+      margin-top: 34px;
+      margin-bottom: 12px;
+      font-size: clamp(24px, 3vw, 34px);
+    }
+    .article h3 {
+      margin-top: 22px;
+      margin-bottom: 8px;
+      font-size: clamp(20px, 2vw, 26px);
+      color: #ffe6a4;
+    }
+    .article p, .article li {
+      color: var(--text);
+      font-size: 17px;
+    }
+    .article p {
+      margin: 0 0 14px;
+    }
+    .article ul {
+      margin: 0 0 14px 0;
+      padding-left: 22px;
+    }
+    .article li {
+      margin: 6px 0;
+    }
+    .article hr {
+      border: 0;
+      height: 1px;
+      background: rgba(255,255,255,0.12);
+      margin: 26px 0;
+    }
+    .article-image {
+      margin: 18px 0 20px;
+      border-radius: 22px;
+      overflow: hidden;
+      border: 1px solid rgba(255,255,255,0.1);
+      background: #170b0c;
+    }
+    .article-image img {
+      display: block;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+    .back-link {
+      display: inline-flex;
+      margin-top: 18px;
+      color: var(--gold);
+      text-decoration: none;
+      font-weight: 700;
+    }
+    .footer {
+      padding: 0 0 46px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    @media (max-width: 720px) {
+      .article, .hero-card { padding: 22px; }
+      .topbar .container { flex-direction: column; align-items: flex-start; }
+      .nav a { margin-left: 0; margin-right: 14px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="container">
+      <div class="brand">Teen Patti Guide India</div>
+      <nav class="nav">
+        <a href="./index.html">Home</a>
+        <a href="#article">Article</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero-card">
+        <span class="eyebrow">Beginner Guide • Rules • Hand Rankings</span>
+        <h1>Teen Patti Guide: Rules, Hand Rankings &amp; How to Play</h1>
+        <p>Learn the basics of Teen Patti with a clean, beginner-friendly guide covering gameplay, hand rankings, strategy tips, common mistakes, and FAQ.</p>
+        <a class="back-link" href="./index.html">← Back to homepage</a>
+      </div>
+    </div>
+  </section>
+
+  <main class="content">
+    <div class="container">
+      <article class="article" id="article">
+        <h1>🎴 Teen Patti Guide: Rules, Hand Rankings &amp; How to Play (Beginner Guide)</h1><h2>🪶 Introduction</h2><p>Teen Patti, also known as <strong>Indian Poker</strong>, is one of the most popular card games in India. The name "Teen Patti" means <em>three cards</em>, and the game is loved for its fast-paced gameplay and strategic depth.</p><p>If you're new to the game, this <strong>Teen Patti guide for beginners</strong> will help you understand:</p><ul><li>Rules of Teen Patti</li><li>Hand rankings</li><li>Gameplay steps</li><li>Winning strategies</li></ul><hr /><h2>🎯 Objective of Teen Patti</h2><p>The main objective in Teen Patti is:</p><p>👉 <strong>To have the strongest three-card hand and win the pot</strong></p><p>Each player is dealt three cards face down, and players bet based on the strength of their hand (or bluff).</p><hr /><h2>🃏 Teen Patti Hand Rankings (Highest to Lowest)</h2><figure class="article-image"><img src="../assets/teen-patti-hand-ranking.png" alt="Teen Patti Hand Rankings" loading="lazy" /></figure><p>Understanding hand rankings is essential to winning.</p><h3>🥇 Trail (Three of a Kind)</h3><p>Three cards of the same rank</p><p>Example: A-A-A</p><h3>🥈 Pure Sequence (Straight Flush)</h3><p>Three consecutive cards of the same suit</p><p>Example: ♥️5-6-7</p><h3>🥉 Sequence (Straight)</h3><p>Three consecutive cards of different suits</p><h3>🎨 Color (Flush)</h3><p>Same suit, not in sequence</p><h3>👯 Pair</h3><p>Two cards of the same rank</p><h3>🪶 High Card</h3><p>No combination</p><hr /><h2>🖼️ Hand Rankings Chart</h2><figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/PokerHandRankings.svg/800px-PokerHandRankings.svg.png" alt="Teen Patti Hand Rankings" loading="lazy" /></figure><hr /><h2>🔄 How to Play Teen Patti (Step-by-Step)</h2><h3>1️⃣ Boot Amount</h3><p>All players place a minimum bet to start the game</p><h3>2️⃣ Deal Cards</h3><p>Each player gets 3 cards face down</p><h3>3️⃣ Betting Round</h3><p>Players choose to:</p><ul><li>Fold</li><li>Call</li><li>Raise</li></ul><p>👉 This is where bluffing and strategy matter</p><h3>4️⃣ Showdown</h3><p>Remaining players reveal cards, and the best hand wins</p><hr /><h2>🖼️ Teen Patti Gameplay</h2><figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Playing_cards.jpg/800px-Playing_cards.jpg" alt="Teen Patti Table" loading="lazy" /></figure><hr /><h2>🧠 Basic Teen Patti Strategy Tips</h2><p>✔ Play fewer hands but stronger ones</p><p>✔ Observe betting patterns</p><p>✔ Bluff occasionally but wisely</p><p>✔ Manage your bankroll</p><hr /><h2>🖼️ Strategy Concept</h2><figure class="article-image"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Poker_game.jpg/800px-Poker_game.jpg" alt="Poker Strategy" loading="lazy" /></figure><hr /><h2>⚠️ Common Mistakes Beginners Make</h2><ul><li>Playing too many weak hands</li><li>Ignoring opponents</li><li>Poor money management</li><li>Revealing emotions</li></ul><hr /><h2>❓ Teen Patti FAQ (SEO Optimized)</h2><h3>What is Teen Patti?</h3><p>Teen Patti is a traditional Indian card game similar to poker, played with three cards.</p><h3>How many cards are dealt in Teen Patti?</h3><p>Each player receives <strong>3 cards face down</strong>.</p><h3>What is the highest hand in Teen Patti?</h3><p>The highest hand is <strong>Trail (Three of a Kind)</strong>.</p><h3>Is Teen Patti based on luck or skill?</h3><p>Teen Patti involves both <strong>luck and strategy</strong>, including bluffing and decision-making.</p><h3>Can beginners play Teen Patti easily?</h3><p>Yes, Teen Patti is beginner-friendly and easy to learn.</p><h3>What is the difference between Teen Patti and Poker?</h3><p>Teen Patti uses only <strong>3 cards</strong>, while poker typically uses <strong>5 cards</strong> and more complex rules.</p><hr /><h2>🧾 Conclusion</h2><p>Teen Patti is a fun and strategic card game combining:</p><ul><li>Luck 🎲</li><li>Skill 🧠</li><li>Psychology 🎭</li></ul><p>By understanding the rules and practicing consistently, you can improve your gameplay and increase your chances of winning.</p><hr /><h2>🔥 SEO Keywords (for your repo / page)</h2><p>Teen Patti guide</p><p>how to play Teen Patti</p><p>Teen Patti rules</p><p>Teen Patti hand rankings</p><p>Indian poker game</p><p>Teen Patti strategy</p><p>Teen Patti tips for beginners</p><hr />
+      </article>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">Teen Patti Guide India • Educational guide page for beginners.</div>
+  </footer>
+</body>
+</html>
