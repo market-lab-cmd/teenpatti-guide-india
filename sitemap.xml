@@ -1,1 +1,10 @@
-<url><loc>https://market-lab-cmd.github.io/teenpatti-guide-india/</loc></url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://market-lab-cmd.github.io/<repo-name>/</loc>
+  </url>
+  <url>
+    <loc>https://market-lab-cmd.github.io/teenpatti-guide-india/</loc>
+  </url>
+
+</urlset>

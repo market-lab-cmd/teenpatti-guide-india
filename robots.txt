@@ -1,2 +1,11 @@
 User-agent: *
 Allow: /
+
+# 禁止抓取源码目录（如果你使用 content/）
+Disallow: /content/
+
+# 允许资源文件
+Allow: /assets/
+
+# Sitemap 地址（必须替换 repo-name）
+Sitemap: https://market-lab-cmd.github.io/teenpatti-guide-india/sitemap.xml
