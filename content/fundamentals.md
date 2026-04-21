@@ -15,7 +15,7 @@ This guide will help you understand the **fundamentals of Teen Patti**, includin
 
 ## 🖼️ Overview of Teen Patti Fundamentals
 
-![Teen Patti Fundamentals Guide](../assets/images/teen-patti-fundamentals.png)
+![Teen Patti Fundamentals Guide](../assets/images/fundamentals.png)
 
 ---
 
