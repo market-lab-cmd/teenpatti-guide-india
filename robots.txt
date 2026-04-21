@@ -7,5 +7,5 @@ Disallow: /content/
 # 允许资源文件
 Allow: /assets/
 
-# Sitemap 地址（必须替换 repo-name）
+# Sitemap
 Sitemap: https://market-lab-cmd.github.io/teenpatti-guide-india/sitemap.xml
