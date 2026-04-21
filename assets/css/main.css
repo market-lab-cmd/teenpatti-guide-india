@@ -109,18 +109,19 @@ img {
   font-size: 20px;
 }
 
-.nav-links,
-.nav a {
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.nav-links a {
   display: flex;
   align-items: center;
   gap: 18px;
   color: var(--muted);
   font-size: 14px;
-}
-
-.nav a {
   text-decoration: none;
-  margin-left: 16px;
 }
 
 /* Buttons
@@ -558,8 +559,11 @@ img {
     align-items: flex-start;
   }
 
-  .nav a {
-    margin-left: 0;
+  .nav-links {
+    margin-top: 10px;
+  }
+
+  .nav-links a {
     margin-right: 14px;
   }
 
