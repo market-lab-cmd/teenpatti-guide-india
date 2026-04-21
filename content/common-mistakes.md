@@ -12,7 +12,7 @@ This guide covers the most common Teen Patti mistakes and how to avoid them.
 
 ## ❌ 1. Playing Too Many Hands
 
-![Teen Patti player making the mistake of playing too many hands](../assets/images/common-mistakes-playing-too-many-hands.png)
+![Teen Patti player making the mistake of playing too many hands](../assets/images/common-mistakes.png)
 
 One of the biggest beginner mistakes is:
 

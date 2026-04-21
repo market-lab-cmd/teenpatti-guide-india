@@ -8,6 +8,12 @@ This guide will teach you how to think like a smart player and improve your deci
 
 ---
 
+## 🖼️ Decision Making Overview
+
+![Young man analyzing decision-making process with flowchart showing situation, analyze, options, decision and outcome](../assets/images/decision-making.png)
+
+---
+
 ## 🎯 Why Decision Making Matters
 
 Even with average cards, good decisions can:
